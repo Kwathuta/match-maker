@@ -56,13 +56,13 @@ p{
 }
 
 .card-content{
-    position: absolute;
     font-family: Lato;
     font-style: italic;
     font-weight: bold;
     font-size: medium;
     text-align: center;
     color: #740000;
+    line-height: 10px;
 
 }
 
@@ -81,3 +81,6 @@ footer{
     position: absolute;
 }
 
+.container{
+    background-image: url(../img/diverse-friends-students-shoot.jpg);
+}
