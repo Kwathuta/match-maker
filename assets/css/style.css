@@ -1,0 +1,92 @@
+header{
+
+}
+body{
+    background-image:url();
+    background: linear-gradient(180deg, rgba (116,0,0,0)0%,#740000 100%);
+}
+h1{
+    position: absolute;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h2{
+    text-align: left;
+    font-family: Lato;
+    font-size: 80px;
+    color: #740000;
+    font-style: italic;
+
+}
+p{
+    position: absolute;
+    width: 1189px;
+    height: 275px;
+    left: 113px;
+    top: 549px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.logo{
+    position: absolute;
+    width: 136px;
+    height: 93px;
+    left: 87px;
+    top: 35px;
+
+}
+.contact,
+.about-us{
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 1116px;
+    top: 67px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3E000C;
+
+}
+.findmatchbutton{
+    position: absolute;
+    width: 422px;
+    height: 62px;
+    left: 539px;
+    top: 905px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+
+}
+footer{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align:center;
+    color:#FFFFFF;
+    position: absolute;
+
+}
+.form{
+    text-align: center;
+}
