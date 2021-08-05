@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator</title>
-
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="match" id="head2">MATCH</a>
+        <a href="#maker" id="head3">maker</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
       <h1>HOW TO MATCH</h1>
       <p>Match Maker wants you to make great friends as fast as possible<br>All you have to do is write both of your names in the space provided<br>
     Click on your intrests and leave your disintrests blank
 <br>submit your progress</p>
+<h2>Please note that you can only click <strong>four</strong> checkbox</h2>
 <form>
     <h3>FIRST NAME</h3>
     <input type="text" class="fname" placeholder="Enter First Name:">
@@ -40,7 +51,7 @@
             </div>
             <div>
                 <input type="checkbox" name="interest" id="books" value="Books">
-                <label for="books">books</label>
+                <label for="books">Books</label>
             </div>
             <div>
                 <input type="checkbox" name="interest" id="art" value="art">
@@ -52,7 +63,7 @@
             </div> 
             <div>
                 <input type="checkbox" name="interest" id="fasion" value="fasion">
-                <label for="fasion">Fasion</label>
+                <label for="fasion">Fashion</label>
             </div>
             </div>
         </div>
