@@ -45,6 +45,18 @@
             experince.
         </p>
     </div>
+    <form id="feedback">
+        <input type="text" placeholder="Kindly Enter Your Name" autocomplete="off" id="name" class="mr-5 pb-1 pt-1"
+        name="name" required>
+    <input type="text" id="email" placeholder="Kindly Enter Your Email" autocomplete="off"
+        class="ml-4 pb-1 pt-1" value="" name="EMAIL"
+        pattern="[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"
+        required>
+    <br><br>
+    <textarea cols="49" rows="10" id="textarea1" placeholder="Feedback"
+        name="message1" required></textarea><br>
+    <button type="submit" onclick="validation()">SUBMIT</button>
+    </form>
 </body>
 
 </html>
