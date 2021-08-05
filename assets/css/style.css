@@ -9,7 +9,6 @@ h1{
     font-size: x-large;
     color: #740000; 
 }
-
 h4{
     position: absolute;
     font-family: Lato;
@@ -50,7 +49,10 @@ p{
     font-size:medium;
     text-align:center;
     color: #740000;
-
+}
+#flex1{
+    display: flex;
+    text-align: center;
 }
 
 .card-content{
@@ -59,11 +61,15 @@ p{
     font-style: italic;
     font-weight: bold;
     font-size: medium;
-    line-height: 115px;
     text-align: center;
     color: #740000;
 
 }
+
+#feedback{
+    text-align: center;
+}
+
 footer{
     font-family: Lato;
     font-style: normal;
@@ -74,6 +80,4 @@ footer{
     color:#FFFFFF;
     position: absolute;
 }
-#feedback{
-    text-align: center;
-}
+
