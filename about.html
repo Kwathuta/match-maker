@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>about.us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #myTopnav {
+            text-align: right;
+        }
+    </style>
+    <div class="topnav" id="myTopnav">
+        <a href="match" id="head2">MATCH</a>
+        <a href="#maker" id="head3">maker</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</head>
+
+<body>
+    <div>
+        <h3 id="about">About us</h3>
+    </div>
+    <div id="para1">
+        <h3>About us</h3>
+    </div>
+    <div>
+        <p>Match Maker Site is a place where you find just the perfect friend for yourself!<br>
+            With the Match Maker site you are able to find yourself a friend who matches your energy and the same hobies
+            just like you!<br>
+            As a team we are dedicated to providing our services to the best of our ability.
+            <br>
+            Kindly share with us and your views or feedback based on your experience from the site.
+            Feel free to also share with us any suggestions of improvements that you think that can be done for better
+            experince.
+        </p>
+    </div>
+    <form id="feedback">
+        <div id="flex1">
+            <label for="text"><b>Name</b></label>
+            <br>
+            <input type="text" placeholder="Name" autocomplete="off" id="name" class="mr-5 pb-1 pt-1" name="name"
+                required>
+            <br>
+            <label for="text"><b>Email</b></label><br>
+            <input type="text" id="email" placeholder="Email" autocomplete="off" class="ml-4 pb-1 pt-1" value=""
+                name="EMAIL"
+                pattern="[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"
+                required>
+        </div>
+        <br><br>
+        <label for="textarea"><b>Message</b></label><br>
+        <textarea cols="49" rows="10" id="textarea1" placeholder="Feedback" name="message1" required></textarea><br>
+        <button type="submit" onclick="validation()">SUBMIT</button>
+    </form>
+</body>
+
+</html>
