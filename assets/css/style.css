@@ -7,6 +7,18 @@ body{
     background-image:url();
     background: linear-gradient(180deg, rgba (116,0,0,0)0%,#740000 100%);
 }
+h1,
+h3,
+h4{
+    position: absolute;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #740000; 
+}
 #about{
     position: absolute;
     font-family: Lato;
@@ -19,6 +31,20 @@ body{
 }
 
 #para1{
+    position: absolute;
+    width: 1189px;
+    height: 275px;
+    left: 113px;
+    top: 549px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+p{
     position: absolute;
     width: 1189px;
     height: 275px;
