@@ -63,6 +63,7 @@ p {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .card-content {
   font-family: Lato;
   font-style: italic;
@@ -72,6 +73,16 @@ p {
   color: #740000;
   line-height: 10px;
 }
+=======
+.card-content{
+    font-family: Lato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color: #740000;
+    line-height: 10px;
+>>>>>>> 130c2cd4b4d4e20629a6a6738096f17dc0bad133
 
 #feedback {
   text-align: center;
