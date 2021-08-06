@@ -45,6 +45,11 @@ h4 {
   text-align: center;
   color: #740000;
 }
+
+.gen-btn {
+  cursor: pointer;
+}
+
 p {
   font-family: Lato;
   font-style: italic;
