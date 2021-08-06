@@ -18,103 +18,114 @@
     </style>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="./index.html" id="head2"><img src="./assets/img/logo.svg" /></a>
-      <a href="./generator.html" id="head3">maker</a>
-      <a href="#home" class="active">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="./about.html">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+    <div class="main">
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html" id="head2"
+          ><img src="./assets/img/logo.svg"
+        /></a>
+        <a href="./generator.html" id="head3">maker</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="./about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <h1>HOW TO MATCH</h1>
+      <p>
+        Match Maker wants you to make great friends as fast as possible<br />All
+        you have to do is write both of your names in the space provided<br />
+        Click on your intrests and leave your disintrests blank
+        <br />submit your progress
+      </p>
+      <h2>
+        Please note that you can only click <strong>four</strong> checkbox
+      </h2>
+      <form>
+        <h3>FIRST NAME</h3>
+        <input
+          type="text"
+          class="fname"
+          autocomplete="off"
+          placeholder="Enter First Name:"
+        />
+        <h3>SECOND NAME</h3>
+        <input
+          type="text"
+          class="sname"
+          autocomplete="off"
+          placeholder="Enter second name: "
+        />
+        <div class="card col-sm-12 col-md-6 col-lg-4">
+          <div class="card-header">
+            <h4>Intrests</h4>
+          </div>
+          <div class="card-content">
+            <div>
+              <input
+                type="checkbox"
+                name="interest"
+                id="travelling"
+                value="Travelling"
+              />
+              <label for="travelling">Travelling</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interest"
+                id="sports"
+                value="Sports"
+              />
+              <label for="sport">Sports</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interest"
+                id="dancing"
+                value="Dancing"
+              />
+              <label for="dancing">Dancing</label>
+            </div>
+            <div>
+              <input type="checkbox" name="interest" id="music" value="Music" />
+              <label for="music">Music</label>
+            </div>
+            <div>
+              <input type="checkbox" name="interest" id="books" value="Books" />
+              <label for="books">Books</label>
+            </div>
+            <div>
+              <input type="checkbox" name="interest" id="art" value="Art" />
+              <label for="art">Art</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interest"
+                id="driving"
+                value="Driving"
+              />
+              <label for="driving">Driving</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="interest"
+                id="fashion"
+                value="Fashion"
+              />
+              <label for="fashion">Fashion</label>
+            </div>
+          </div>
+        </div>
+        <h2 id="result"></h2>
+        <div class="">
+          <button type="button" onclick="button()">GENERATE</button>
+        </div>
+      </form>
     </div>
-    <h1>HOW TO MATCH</h1>
-    <p>
-      Match Maker wants you to make great friends as fast as possible<br />All
-      you have to do is write both of your names in the space provided<br />
-      Click on your intrests and leave your disintrests blank
-      <br />submit your progress
-    </p>
-    <h2>Please note that you can only click <strong>four</strong> checkbox</h2>
-    <form>
-      <h3>FIRST NAME</h3>
-      <input
-        type="text"
-        class="fname"
-        autocomplete="off"
-        placeholder="Enter First Name:"
-      />
-      <h3>SECOND NAME</h3>
-      <input
-        type="text"
-        class="sname"
-        autocomplete="off"
-        placeholder="Enter second name: "
-      />
-      <div class="card col-sm-12 col-md-6 col-lg-4">
-        <div class="card-header">
-          <h4>Intrests</h4>
-        </div>
-        <div class="card-content">
-          <div>
-            <input
-              type="checkbox"
-              name="interest"
-              id="travelling"
-              value="Travelling"
-            />
-            <label for="travelling">Travelling</label>
-          </div>
-          <div>
-            <input type="checkbox" name="interest" id="sports" value="Sports" />
-            <label for="sport">Sports</label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              name="interest"
-              id="dancing"
-              value="Dancing"
-            />
-            <label for="dancing">Dancing</label>
-          </div>
-          <div>
-            <input type="checkbox" name="interest" id="music" value="Music" />
-            <label for="music">Music</label>
-          </div>
-          <div>
-            <input type="checkbox" name="interest" id="books" value="Books" />
-            <label for="books">Books</label>
-          </div>
-          <div>
-            <input type="checkbox" name="interest" id="art" value="Art" />
-            <label for="art">Art</label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              name="interest"
-              id="driving"
-              value="Driving"
-            />
-            <label for="driving">Driving</label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              name="interest"
-              id="fashion"
-              value="Fashion"
-            />
-            <label for="fashion">Fashion</label>
-          </div>
-        </div>
-      </div>
-      <div class="">
-        <button type="button" onclick="button()">GENERATE</button>
-      </div>
-      <h2 id="result"></h2>
-    </form>
 
     <script src="./assets/js/app.js"></script>
   </body>
