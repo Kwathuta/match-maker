@@ -32,7 +32,7 @@ h4 {
 }
 
 #para1 {
-  position: absolute;
+  /* position: absolute; */
   width: 1189px;
   height: 275px;
   left: 113px;
@@ -43,7 +43,7 @@ h4 {
   font-size: medium;
   line-height: 55px;
   text-align: center;
-  color: #ffffff;
+  color: #740000;
 }
 p {
   font-family: Lato;
