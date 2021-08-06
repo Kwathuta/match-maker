@@ -57,4 +57,6 @@ function Person(firstName, secondName, hobbies) {
     this.hobbies = hobbies
 }
 
-
+about = () => {
+    alert("Thank you! Your message has been recieved")
+}
