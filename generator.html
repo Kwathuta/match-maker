@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generator</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        #myTopnav {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="match" id="head2">MATCH</a>
-        <a href="#maker" id="head3">maker</a>
-        <a href="#home" class="active">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="./index.html" id="head2"><img src="./assets/img/logo.svg"></a>
+                <a href="./generator.html" id="head3">maker</a>
+                <a href="#home" class="active">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="./about.html">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -25,9 +30,9 @@
 <h2>Please note that you can only click <strong>four</strong> checkbox</h2>
 <form>
     <h3>FIRST NAME</h3>
-    <input type="text" class="fname" placeholder="Enter First Name:">
+    <input type="text" class="fname" autocomplete="off" placeholder="Enter First Name:">
     <h3>SECOND NAME</h3>
-    <input type="text" class="sname" placeholder="Enter second name: ">
+    <input type="text" class="sname" autocomplete="off" placeholder="Enter second name: ">
     <div class="card col-sm-12 col-md-6 col-lg-4">
         <div class="card-header">
             <h4>Intrests</h4>
