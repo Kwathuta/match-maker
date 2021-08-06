@@ -34,7 +34,7 @@ h4 {
 #para1 {
   /* position: absolute; */
   width: 1189px;
-  height: 275px;
+  height: 100px;
   left: 113px;
   top: 549px;
   font-family: Lato;
@@ -61,6 +61,7 @@ p {
 #flex1 {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 .card-content {
   font-family: Lato;
