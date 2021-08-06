@@ -63,17 +63,16 @@ p {
   text-align: center;
 }
 
-.card-content {
-  font-family: Lato;
-  font-style: italic;
-  font-weight: bold;
-  font-size: medium;
-  text-align: left;
-  color: #740000;
-  line-height: 10px;
+.card-content{
+    font-family: Lato;
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color: #740000;
+    line-height: 10px;
 }
-
-#feedback {
+#feedback{
   text-align: center;
 }
 
