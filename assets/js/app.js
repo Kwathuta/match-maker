@@ -37,7 +37,7 @@ button = () => {
                     if (result == true) {
                         pair = element.firstName
                         console.log(pair);
-                        document.getElementById('result').innerHTML='Your interests match with '+ pair + "'s"
+                        document.getElementById('result').innerHTML='Your interests match with '+ pair + "'s +254712345678"
                     } else {
                         pair = "No Match!"
                         // console.log(pair);
